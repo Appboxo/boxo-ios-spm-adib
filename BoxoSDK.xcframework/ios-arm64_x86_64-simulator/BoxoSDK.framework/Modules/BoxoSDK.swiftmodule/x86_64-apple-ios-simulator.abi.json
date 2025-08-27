@@ -10565,7 +10565,7 @@
       "kind": "StringLiteral",
       "offset": 274,
       "length": 7,
-      "value": "\"0.0.1\""
+      "value": "\"0.0.2\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-sdk\/ios-sdk\/BoxoSDK\/BoxoSDK\/source\/utils\/SentryManger.swift",
@@ -11200,7 +11200,14 @@
     {
       "filePath": "\/Users\/runner\/work\/ios-sdk\/ios-sdk\/BoxoSDK\/BoxoSDK\/source\/utils\/Router.swift",
       "kind": "BooleanLiteral",
-      "offset": 7159,
+      "offset": 6727,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/ios-sdk\/ios-sdk\/BoxoSDK\/BoxoSDK\/source\/utils\/Router.swift",
+      "kind": "BooleanLiteral",
+      "offset": 7202,
       "length": 4,
       "value": "true"
     },
