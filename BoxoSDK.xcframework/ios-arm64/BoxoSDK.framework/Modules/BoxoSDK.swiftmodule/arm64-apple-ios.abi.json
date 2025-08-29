@@ -10571,153 +10571,153 @@
       "filePath": "\/Users\/runner\/work\/ios-sdk\/ios-sdk\/BoxoSDK\/BoxoSDK\/source\/utils\/SentryManger.swift",
       "kind": "StringLiteral",
       "offset": 274,
-      "length": 7,
-      "value": "\"0.0.3\""
+      "length": 12,
+      "value": "\"adib_0.0.4\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-sdk\/ios-sdk\/BoxoSDK\/BoxoSDK\/source\/utils\/SentryManger.swift",
       "kind": "StringLiteral",
-      "offset": 424,
+      "offset": 429,
       "length": 47,
       "value": "\"https:\/\/sentry.io\/api\/4507649859321856\/store\/\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-sdk\/ios-sdk\/BoxoSDK\/BoxoSDK\/source\/utils\/SentryManger.swift",
       "kind": "StringLiteral",
-      "offset": 504,
+      "offset": 509,
       "length": 6,
       "value": "\"POST\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-sdk\/ios-sdk\/BoxoSDK\/BoxoSDK\/source\/utils\/SentryManger.swift",
       "kind": "StringLiteral",
-      "offset": 555,
+      "offset": 560,
       "length": 9,
       "value": "\"message\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-sdk\/ios-sdk\/BoxoSDK\/BoxoSDK\/source\/utils\/SentryManger.swift",
       "kind": "StringLiteral",
-      "offset": 588,
+      "offset": 593,
       "length": 7,
       "value": "\"extra\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-sdk\/ios-sdk\/BoxoSDK\/BoxoSDK\/source\/utils\/SentryManger.swift",
       "kind": "StringLiteral",
-      "offset": 616,
+      "offset": 621,
       "length": 8,
       "value": "\"app_id\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-sdk\/ios-sdk\/BoxoSDK\/BoxoSDK\/source\/utils\/SentryManger.swift",
       "kind": "StringLiteral",
-      "offset": 650,
+      "offset": 655,
       "length": 11,
       "value": "\"client_id\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-sdk\/ios-sdk\/BoxoSDK\/BoxoSDK\/source\/utils\/SentryManger.swift",
       "kind": "StringLiteral",
-      "offset": 714,
+      "offset": 719,
       "length": 13,
       "value": "\"stack_trace\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-sdk\/ios-sdk\/BoxoSDK\/BoxoSDK\/source\/utils\/SentryManger.swift",
       "kind": "StringLiteral",
-      "offset": 771,
+      "offset": 776,
       "length": 10,
       "value": "\"platform\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-sdk\/ios-sdk\/BoxoSDK\/BoxoSDK\/source\/utils\/SentryManger.swift",
       "kind": "StringLiteral",
-      "offset": 784,
+      "offset": 789,
       "length": 5,
       "value": "\"iOS\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-sdk\/ios-sdk\/BoxoSDK\/BoxoSDK\/source\/utils\/SentryManger.swift",
       "kind": "StringLiteral",
-      "offset": 807,
+      "offset": 812,
       "length": 7,
       "value": "\"model\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-sdk\/ios-sdk\/BoxoSDK\/BoxoSDK\/source\/utils\/SentryManger.swift",
       "kind": "StringLiteral",
-      "offset": 849,
+      "offset": 854,
       "length": 8,
       "value": "\"system\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-sdk\/ios-sdk\/BoxoSDK\/BoxoSDK\/source\/utils\/SentryManger.swift",
       "kind": "StringLiteral",
-      "offset": 860,
+      "offset": 865,
       "length": 39,
       "value": "\"ios \""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-sdk\/ios-sdk\/BoxoSDK\/BoxoSDK\/source\/utils\/SentryManger.swift",
       "kind": "StringLiteral",
-      "offset": 898,
+      "offset": 903,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-sdk\/ios-sdk\/BoxoSDK\/BoxoSDK\/source\/utils\/SentryManger.swift",
       "kind": "StringLiteral",
-      "offset": 917,
+      "offset": 922,
       "length": 13,
       "value": "\"sdk_version\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-sdk\/ios-sdk\/BoxoSDK\/BoxoSDK\/source\/utils\/SentryManger.swift",
       "kind": "StringLiteral",
-      "offset": 961,
+      "offset": 966,
       "length": 17,
       "value": "\"additional_data\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-sdk\/ios-sdk\/BoxoSDK\/BoxoSDK\/source\/utils\/SentryManger.swift",
       "kind": "Dictionary",
-      "offset": 994,
+      "offset": 999,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-sdk\/ios-sdk\/BoxoSDK\/BoxoSDK\/source\/utils\/SentryManger.swift",
       "kind": "StringLiteral",
-      "offset": 1153,
+      "offset": 1158,
       "length": 18,
       "value": "\"application\/json\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-sdk\/ios-sdk\/BoxoSDK\/BoxoSDK\/source\/utils\/SentryManger.swift",
       "kind": "StringLiteral",
-      "offset": 1193,
+      "offset": 1198,
       "length": 14,
       "value": "\"Content-Type\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-sdk\/ios-sdk\/BoxoSDK\/BoxoSDK\/source\/utils\/SentryManger.swift",
       "kind": "StringLiteral",
-      "offset": 1234,
+      "offset": 1239,
       "length": 106,
       "value": "\"Sentry sentry_version=7, sentry_key=525fabf4162e03215e0da751b36a8772, sentry_client=iOSSDK\/\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-sdk\/ios-sdk\/BoxoSDK\/BoxoSDK\/source\/utils\/SentryManger.swift",
       "kind": "StringLiteral",
-      "offset": 1339,
+      "offset": 1344,
       "length": 24,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-sdk\/ios-sdk\/BoxoSDK\/BoxoSDK\/source\/utils\/SentryManger.swift",
       "kind": "StringLiteral",
-      "offset": 1362,
+      "offset": 1367,
       "length": 15,
       "value": "\"X-Sentry-Auth\""
     },
@@ -11179,42 +11179,42 @@
     {
       "filePath": "\/Users\/runner\/work\/ios-sdk\/ios-sdk\/BoxoSDK\/BoxoSDK\/source\/utils\/Router.swift",
       "kind": "BooleanLiteral",
-      "offset": 4640,
+      "offset": 4587,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-sdk\/ios-sdk\/BoxoSDK\/BoxoSDK\/source\/utils\/Router.swift",
       "kind": "BooleanLiteral",
-      "offset": 4854,
+      "offset": 4801,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-sdk\/ios-sdk\/BoxoSDK\/BoxoSDK\/source\/utils\/Router.swift",
       "kind": "BooleanLiteral",
-      "offset": 5565,
+      "offset": 5355,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-sdk\/ios-sdk\/BoxoSDK\/BoxoSDK\/source\/utils\/Router.swift",
       "kind": "BooleanLiteral",
-      "offset": 5738,
+      "offset": 5528,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-sdk\/ios-sdk\/BoxoSDK\/BoxoSDK\/source\/utils\/Router.swift",
       "kind": "BooleanLiteral",
-      "offset": 6727,
+      "offset": 6499,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-sdk\/ios-sdk\/BoxoSDK\/BoxoSDK\/source\/utils\/Router.swift",
       "kind": "BooleanLiteral",
-      "offset": 7202,
+      "offset": 7016,
       "length": 4,
       "value": "true"
     },
@@ -11585,7 +11585,7 @@
     {
       "filePath": "\/Users\/runner\/work\/ios-sdk\/ios-sdk\/BoxoSDK\/BoxoSDK\/source\/sdk\/Miniapp.swift",
       "kind": "IntegerLiteral",
-      "offset": 4100,
+      "offset": 3981,
       "length": 4,
       "value": "1000"
     },
