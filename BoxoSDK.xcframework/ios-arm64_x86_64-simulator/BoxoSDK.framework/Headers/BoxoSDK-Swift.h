@@ -396,6 +396,7 @@ enum PageAnimation : NSInteger;
 @class UIImage;
 SWIFT_CLASS_NAMED("MiniappConfig")
 @interface MiniappConfig : NSObject
+@property (nonatomic, copy) NSArray<NSString *> * _Nonnull noCacheLocalStorageKeys;
 @property (nonatomic) BOOL saveState;
 @property (nonatomic, copy) NSString * _Nonnull urlSuffix;
 @property (nonatomic) enum PageAnimation pageAnimation;
@@ -887,6 +888,7 @@ enum PageAnimation : NSInteger;
 @class UIImage;
 SWIFT_CLASS_NAMED("MiniappConfig")
 @interface MiniappConfig : NSObject
+@property (nonatomic, copy) NSArray<NSString *> * _Nonnull noCacheLocalStorageKeys;
 @property (nonatomic) BOOL saveState;
 @property (nonatomic, copy) NSString * _Nonnull urlSuffix;
 @property (nonatomic) enum PageAnimation pageAnimation;
