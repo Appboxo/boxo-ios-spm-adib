@@ -105,6 +105,7 @@ import _SwiftConcurrencyShims
   @objc(sendCustomEvent:) public func sendCustomEvent(customEvent: BoxoSDK.CustomEvent)
   @objc(sendPaymentEvent:) public func sendPaymentEvent(paymentData: BoxoSDK.PaymentData)
   @objc(close) public func close()
+  @objc(removeState) public func removeState()
   @objc(setConfig:) public func setConfig(config: BoxoSDK.MiniappConfig?)
   @objc(setData:) public func setData(data: [Swift.String : Any]?)
   @objc(showCustomActionMenuItem) public func showCustomActionMenuItem()

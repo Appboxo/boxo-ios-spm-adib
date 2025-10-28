@@ -370,6 +370,7 @@ SWIFT_CLASS_NAMED("Miniapp")
 - (void)sendCustomEvent:(CustomEvent * _Nonnull)customEvent;
 - (void)sendPaymentEvent:(PaymentData * _Nonnull)paymentData;
 - (void)close;
+- (void)removeState;
 - (void)setConfig:(MiniappConfig * _Nullable)config;
 - (void)setData:(NSDictionary<NSString *, id> * _Nullable)data;
 - (void)showCustomActionMenuItem;
@@ -862,6 +863,7 @@ SWIFT_CLASS_NAMED("Miniapp")
 - (void)sendCustomEvent:(CustomEvent * _Nonnull)customEvent;
 - (void)sendPaymentEvent:(PaymentData * _Nonnull)paymentData;
 - (void)close;
+- (void)removeState;
 - (void)setConfig:(MiniappConfig * _Nullable)config;
 - (void)setData:(NSDictionary<NSString *, id> * _Nullable)data;
 - (void)showCustomActionMenuItem;

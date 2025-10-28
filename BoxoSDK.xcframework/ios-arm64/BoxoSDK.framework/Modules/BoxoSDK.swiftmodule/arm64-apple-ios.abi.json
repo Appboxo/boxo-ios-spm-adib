@@ -4616,6 +4616,28 @@
           },
           {
             "kind": "Function",
+            "name": "removeState",
+            "printedName": "removeState()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@BoxoSDK@objc(cs)Miniapp(im)removeState",
+            "mangledName": "$s7BoxoSDK7MiniappC11removeStateyyF",
+            "moduleName": "BoxoSDK",
+            "objc_name": "removeState",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
             "name": "setConfig",
             "printedName": "setConfig(config:)",
             "children": [
@@ -9812,7 +9834,7 @@
       "kind": "StringLiteral",
       "offset": 274,
       "length": 12,
-      "value": "\"adib_0.0.8\""
+      "value": "\"adib_0.0.9\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-sdk\/ios-sdk\/BoxoSDK\/BoxoSDK\/source\/sdk\/CustomEvent.swift",
