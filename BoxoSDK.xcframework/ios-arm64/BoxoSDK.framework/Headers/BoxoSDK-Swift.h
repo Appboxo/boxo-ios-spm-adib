@@ -363,8 +363,8 @@ SWIFT_CLASS_NAMED("CustomEvent")
 SWIFT_CLASS_NAMED("Miniapp")
 @interface Miniapp : NSObject
 @property (nonatomic, copy) NSString * _Nonnull appId;
-@property (nonatomic, strong) id <MiniappDelegate> _Nullable delegate;
-@property (nonatomic, strong) id <MiniappWebviewDelegate> _Nullable webViewDelegate;
+@property (nonatomic, weak) id <MiniappDelegate> _Nullable delegate;
+@property (nonatomic, weak) id <MiniappWebviewDelegate> _Nullable webViewDelegate;
 - (nonnull instancetype)initWithAppId:(NSString * _Nonnull)appId OBJC_DESIGNATED_INITIALIZER;
 - (void)openWithViewController:(UIViewController * _Nonnull)viewController;
 - (void)sendCustomEvent:(CustomEvent * _Nonnull)customEvent;

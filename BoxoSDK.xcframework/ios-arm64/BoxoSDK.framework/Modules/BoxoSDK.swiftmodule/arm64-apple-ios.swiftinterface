@@ -98,8 +98,8 @@ import _SwiftConcurrencyShims
 }
 @objc(Miniapp) open class Miniapp : ObjectiveC.NSObject {
   @objc public var appId: Swift.String
-  @objc public var delegate: (any BoxoSDK.MiniappDelegate)?
-  @objc public var webViewDelegate: (any BoxoSDK.MiniappWebViewDelegate)?
+  @objc weak public var delegate: (any BoxoSDK.MiniappDelegate)?
+  @objc weak public var webViewDelegate: (any BoxoSDK.MiniappWebViewDelegate)?
   @objc(initWithAppId:) required public init(appId: Swift.String)
   @objc(openWithViewController:) public func open(viewController: UIKit.UIViewController)
   @objc(sendCustomEvent:) public func sendCustomEvent(customEvent: BoxoSDK.CustomEvent)
