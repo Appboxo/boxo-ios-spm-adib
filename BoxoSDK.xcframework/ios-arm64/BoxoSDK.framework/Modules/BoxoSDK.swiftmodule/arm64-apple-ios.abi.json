@@ -4510,6 +4510,35 @@
             ]
           },
           {
+            "kind": "Function",
+            "name": "getCurrentVC",
+            "printedName": "getCurrentVC()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIViewController?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIViewController",
+                    "printedName": "UIKit.UIViewController",
+                    "usr": "c:objc(cs)UIViewController"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7BoxoSDK7MiniappC12getCurrentVCSo16UIViewControllerCSgyF",
+            "mangledName": "$s7BoxoSDK7MiniappC12getCurrentVCSo16UIViewControllerCSgyF",
+            "moduleName": "BoxoSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
             "kind": "Constructor",
             "name": "init",
             "printedName": "init(appId:)",
@@ -4850,19 +4879,47 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "UIViewController",
-                "printedName": "UIKit.UIViewController",
-                "usr": "c:objc(cs)UIViewController"
+                "name": "Optional",
+                "printedName": "UIKit.UIViewController?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIViewController",
+                    "printedName": "UIKit.UIViewController",
+                    "usr": "c:objc(cs)UIViewController"
+                  }
+                ],
+                "usr": "s:Sq"
               }
             ],
             "declKind": "Func",
             "usr": "c:@M@BoxoSDK@objc(cs)Miniapp(im)createUIViewController",
-            "mangledName": "$s7BoxoSDK7MiniappC22createUIViewControllerSo0eF0CyF",
+            "mangledName": "$s7BoxoSDK7MiniappC22createUIViewControllerSo0eF0CSgyF",
             "moduleName": "BoxoSDK",
             "objc_name": "createUIViewController",
             "declAttributes": [
               "AccessControl",
               "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "removeCache",
+            "printedName": "removeCache()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7BoxoSDK7MiniappC11removeCacheyyF",
+            "mangledName": "$s7BoxoSDK7MiniappC11removeCacheyyF",
+            "moduleName": "BoxoSDK",
+            "declAttributes": [
+              "AccessControl"
             ],
             "funcSelfKind": "NonMutating"
           },
@@ -9757,7 +9814,7 @@
       "kind": "StringLiteral",
       "offset": 274,
       "length": 13,
-      "value": "\"adib_0.0.11\""
+      "value": "\"adib_0.0.12\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-sdk\/ios-sdk\/BoxoSDK\/BoxoSDK\/source\/sdk\/CustomEvent.swift",
