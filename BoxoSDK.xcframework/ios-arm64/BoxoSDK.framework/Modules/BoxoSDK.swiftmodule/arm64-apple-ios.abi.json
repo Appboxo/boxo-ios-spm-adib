@@ -131,6 +131,51 @@
         "moduleName": "BoxoSDK"
       },
       {
+        "kind": "Var",
+        "name": "BoxoMiniappViewTag",
+        "printedName": "BoxoMiniappViewTag",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "Int",
+            "printedName": "Swift.Int",
+            "usr": "s:Si"
+          }
+        ],
+        "declKind": "Var",
+        "usr": "s:7BoxoSDK0A14MiniappViewTagSivp",
+        "mangledName": "$s7BoxoSDK0A14MiniappViewTagSivp",
+        "moduleName": "BoxoSDK",
+        "declAttributes": [
+          "HasInitialValue",
+          "HasStorage",
+          "AccessControl"
+        ],
+        "isLet": true,
+        "hasStorage": true,
+        "accessors": [
+          {
+            "kind": "Accessor",
+            "name": "Get",
+            "printedName": "Get()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Accessor",
+            "usr": "s:7BoxoSDK0A14MiniappViewTagSivg",
+            "mangledName": "$s7BoxoSDK0A14MiniappViewTagSivg",
+            "moduleName": "BoxoSDK",
+            "implicit": true,
+            "accessorKind": "get"
+          }
+        ]
+      },
+      {
         "kind": "TypeDecl",
         "name": "Boxo",
         "printedName": "Boxo",
@@ -4602,28 +4647,6 @@
           },
           {
             "kind": "Function",
-            "name": "removeState",
-            "printedName": "removeState()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "c:@M@BoxoSDK@objc(cs)Miniapp(im)removeState",
-            "mangledName": "$s7BoxoSDK7MiniappC11removeStateyyF",
-            "moduleName": "BoxoSDK",
-            "objc_name": "removeState",
-            "declAttributes": [
-              "AccessControl",
-              "ObjC"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
             "name": "setConfig",
             "printedName": "setConfig(config:)",
             "children": [
@@ -4822,8 +4845,8 @@
           },
           {
             "kind": "Function",
-            "name": "getUIViewController",
-            "printedName": "getUIViewController()",
+            "name": "createUIViewController",
+            "printedName": "createUIViewController()",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -4833,10 +4856,10 @@
               }
             ],
             "declKind": "Func",
-            "usr": "c:@M@BoxoSDK@objc(cs)Miniapp(im)getUIViewController",
-            "mangledName": "$s7BoxoSDK7MiniappC19getUIViewControllerSo0eF0CyF",
+            "usr": "c:@M@BoxoSDK@objc(cs)Miniapp(im)createUIViewController",
+            "mangledName": "$s7BoxoSDK7MiniappC22createUIViewControllerSo0eF0CyF",
             "moduleName": "BoxoSDK",
-            "objc_name": "getUIViewController",
+            "objc_name": "createUIViewController",
             "declAttributes": [
               "AccessControl",
               "ObjC"
@@ -7853,99 +7876,6 @@
           },
           {
             "kind": "Var",
-            "name": "saveState",
-            "printedName": "saveState",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Bool",
-                "printedName": "Swift.Bool",
-                "usr": "s:Sb"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "c:@M@BoxoSDK@objc(cs)MiniappConfig(py)saveState",
-            "mangledName": "$s7BoxoSDK13MiniappConfigC9saveStateSbvp",
-            "moduleName": "BoxoSDK",
-            "declAttributes": [
-              "HasInitialValue",
-              "HasStorage",
-              "AccessControl",
-              "ObjC"
-            ],
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Bool",
-                    "printedName": "Swift.Bool",
-                    "usr": "s:Sb"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "c:@M@BoxoSDK@objc(cs)MiniappConfig(im)saveState",
-                "mangledName": "$s7BoxoSDK13MiniappConfigC9saveStateSbvg",
-                "moduleName": "BoxoSDK",
-                "implicit": true,
-                "declAttributes": [
-                  "ObjC"
-                ],
-                "accessorKind": "get"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Bool",
-                    "printedName": "Swift.Bool",
-                    "usr": "s:Sb"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "c:@M@BoxoSDK@objc(cs)MiniappConfig(im)setSaveState:",
-                "mangledName": "$s7BoxoSDK13MiniappConfigC9saveStateSbvs",
-                "moduleName": "BoxoSDK",
-                "implicit": true,
-                "declAttributes": [
-                  "ObjC"
-                ],
-                "accessorKind": "set"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:7BoxoSDK13MiniappConfigC9saveStateSbvM",
-                "mangledName": "$s7BoxoSDK13MiniappConfigC9saveStateSbvM",
-                "moduleName": "BoxoSDK",
-                "implicit": true,
-                "accessorKind": "_modify"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
             "name": "urlSuffix",
             "printedName": "urlSuffix",
             "children": [
@@ -9635,15 +9565,22 @@
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-sdk\/ios-sdk\/BoxoSDK\/BoxoSDK\/source\/sdk\/Boxo.swift",
+      "kind": "IntegerLiteral",
+      "offset": 204,
+      "length": 2,
+      "value": "16"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/ios-sdk\/ios-sdk\/BoxoSDK\/BoxoSDK\/source\/sdk\/Boxo.swift",
       "kind": "StringLiteral",
-      "offset": 284,
+      "offset": 320,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-sdk\/ios-sdk\/BoxoSDK\/BoxoSDK\/source\/sdk\/Boxo.swift",
       "kind": "StringLiteral",
-      "offset": 384,
+      "offset": 420,
       "length": 2,
       "value": "\"\""
     },
@@ -9820,7 +9757,7 @@
       "kind": "StringLiteral",
       "offset": 274,
       "length": 13,
-      "value": "\"adib_0.0.10\""
+      "value": "\"adib_0.0.11\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-sdk\/ios-sdk\/BoxoSDK\/BoxoSDK\/source\/sdk\/CustomEvent.swift",
@@ -11316,28 +11253,28 @@
     {
       "filePath": "\/Users\/runner\/work\/ios-sdk\/ios-sdk\/BoxoSDK\/BoxoSDK\/source\/viewcontrollers\/MiniAppVC.swift",
       "kind": "BooleanLiteral",
-      "offset": 17697,
+      "offset": 17735,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-sdk\/ios-sdk\/BoxoSDK\/BoxoSDK\/source\/viewcontrollers\/MiniAppVC.swift",
       "kind": "StringLiteral",
-      "offset": 33776,
+      "offset": 33748,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-sdk\/ios-sdk\/BoxoSDK\/BoxoSDK\/source\/viewcontrollers\/MiniAppVC.swift",
       "kind": "StringLiteral",
-      "offset": 33802,
+      "offset": 33774,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-sdk\/ios-sdk\/BoxoSDK\/BoxoSDK\/source\/viewcontrollers\/MiniAppVC.swift",
       "kind": "BooleanLiteral",
-      "offset": 36127,
+      "offset": 36099,
       "length": 4,
       "value": "true"
     },
@@ -11385,15 +11322,8 @@
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-sdk\/ios-sdk\/BoxoSDK\/BoxoSDK\/source\/sdk\/MiniappConfig.swift",
-      "kind": "BooleanLiteral",
-      "offset": 637,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/ios-sdk\/ios-sdk\/BoxoSDK\/BoxoSDK\/source\/sdk\/MiniappConfig.swift",
       "kind": "StringLiteral",
-      "offset": 675,
+      "offset": 637,
       "length": 2,
       "value": "\"\""
     },

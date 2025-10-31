@@ -370,14 +370,13 @@ SWIFT_CLASS_NAMED("Miniapp")
 - (void)sendCustomEvent:(CustomEvent * _Nonnull)customEvent;
 - (void)sendPaymentEvent:(PaymentData * _Nonnull)paymentData;
 - (void)close;
-- (void)removeState;
 - (void)setConfig:(MiniappConfig * _Nullable)config;
 - (void)setData:(NSDictionary<NSString *, id> * _Nullable)data;
 - (void)showCustomActionMenuItem;
 - (void)hideCustomActionMenuItem;
 - (void)setAuthCode:(NSString * _Nonnull)authCode;
 - (void)setAuthTokens:(NSDictionary<NSString *, id> * _Nonnull)tokens;
-- (UIViewController * _Nonnull)getUIViewController SWIFT_WARN_UNUSED_RESULT;
+- (UIViewController * _Nonnull)createUIViewController SWIFT_WARN_UNUSED_RESULT;
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
@@ -398,7 +397,6 @@ enum PageAnimation : NSInteger;
 SWIFT_CLASS_NAMED("MiniappConfig")
 @interface MiniappConfig : NSObject
 @property (nonatomic, copy) NSArray<NSString *> * _Nonnull noCacheLocalStorageKeys;
-@property (nonatomic) BOOL saveState;
 @property (nonatomic, copy) NSString * _Nonnull urlSuffix;
 @property (nonatomic) enum PageAnimation pageAnimation;
 - (nonnull instancetype)initWithTheme:(enum Theme)theme;

@@ -19,6 +19,7 @@ import WebKit
 import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
+public let BoxoMiniappViewTag: Swift.Int
 @objc(Boxo) open class Boxo : ObjectiveC.NSObject {
   @objc public static let shared: BoxoSDK.Boxo
   @objc required public init(config: BoxoSDK.Config)
@@ -105,14 +106,13 @@ import _SwiftConcurrencyShims
   @objc(sendCustomEvent:) public func sendCustomEvent(customEvent: BoxoSDK.CustomEvent)
   @objc(sendPaymentEvent:) public func sendPaymentEvent(paymentData: BoxoSDK.PaymentData)
   @objc(close) public func close()
-  @objc(removeState) public func removeState()
   @objc(setConfig:) public func setConfig(config: BoxoSDK.MiniappConfig?)
   @objc(setData:) public func setData(data: [Swift.String : Any]?)
   @objc(showCustomActionMenuItem) public func showCustomActionMenuItem()
   @objc(hideCustomActionMenuItem) public func hideCustomActionMenuItem()
   @objc(setAuthCode:) public func setAuthCode(authCode: Swift.String)
   @objc(setAuthTokens:) public func setAuthTokens(_ tokens: [Swift.String : Any])
-  @objc(getUIViewController) public func getUIViewController() -> UIKit.UIViewController
+  @objc(createUIViewController) public func createUIViewController() -> UIKit.UIViewController
   @objc deinit
 }
 @_inheritsConvenienceInitializers @objc(PaymentData) public class PaymentData : ObjectiveC.NSObject {
@@ -158,7 +158,6 @@ import _SwiftConcurrencyShims
 }
 @_inheritsConvenienceInitializers @objc(MiniappConfig) public class MiniappConfig : ObjectiveC.NSObject {
   @objc public var noCacheLocalStorageKeys: [Swift.String]
-  @objc public var saveState: Swift.Bool
   @objc public var urlSuffix: Swift.String
   @objc public var pageAnimation: BoxoSDK.PageAnimation
   @objc(initWithTheme:) convenience public init(theme: BoxoSDK.Theme)
