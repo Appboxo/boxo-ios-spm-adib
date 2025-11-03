@@ -99,9 +99,8 @@ public let BoxoMiniappViewTag: Swift.Int
 }
 @objc(Miniapp) open class Miniapp : ObjectiveC.NSObject {
   @objc public var appId: Swift.String
-  @objc weak public var delegate: (any BoxoSDK.MiniappDelegate)?
-  @objc weak public var webViewDelegate: (any BoxoSDK.MiniappWebViewDelegate)?
-  public func getCurrentVC() -> UIKit.UIViewController?
+  @objc public var delegate: (any BoxoSDK.MiniappDelegate)?
+  @objc public var webViewDelegate: (any BoxoSDK.MiniappWebViewDelegate)?
   @objc(initWithAppId:) required public init(appId: Swift.String)
   @objc(openWithViewController:) public func open(viewController: UIKit.UIViewController)
   @objc(sendCustomEvent:) public func sendCustomEvent(customEvent: BoxoSDK.CustomEvent)
@@ -113,8 +112,7 @@ public let BoxoMiniappViewTag: Swift.Int
   @objc(hideCustomActionMenuItem) public func hideCustomActionMenuItem()
   @objc(setAuthCode:) public func setAuthCode(authCode: Swift.String)
   @objc(setAuthTokens:) public func setAuthTokens(_ tokens: [Swift.String : Any])
-  @objc(createUIViewController) public func createUIViewController() -> UIKit.UIViewController?
-  public func removeCache()
+  @objc(createUIViewController) public func createUIViewController() -> UIKit.UIViewController
   @objc deinit
 }
 @_inheritsConvenienceInitializers @objc(PaymentData) public class PaymentData : ObjectiveC.NSObject {

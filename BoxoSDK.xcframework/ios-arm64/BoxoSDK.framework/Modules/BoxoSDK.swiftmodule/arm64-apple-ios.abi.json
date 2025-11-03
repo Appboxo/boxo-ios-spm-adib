@@ -4296,8 +4296,17 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "WeakStorage",
-                "printedName": "(any BoxoSDK.MiniappDelegate)?"
+                "name": "Optional",
+                "printedName": "(any BoxoSDK.MiniappDelegate)?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "MiniappDelegate",
+                    "printedName": "any BoxoSDK.MiniappDelegate",
+                    "usr": "c:@M@BoxoSDK@objc(pl)MiniappDelegate"
+                  }
+                ],
+                "usr": "s:Sq"
               }
             ],
             "declKind": "Var",
@@ -4307,11 +4316,9 @@
             "declAttributes": [
               "HasInitialValue",
               "HasStorage",
-              "ReferenceOwnership",
               "AccessControl",
               "ObjC"
             ],
-            "ownership": 1,
             "hasStorage": true,
             "accessors": [
               {
@@ -4406,8 +4413,17 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "WeakStorage",
-                "printedName": "(any BoxoSDK.MiniappWebViewDelegate)?"
+                "name": "Optional",
+                "printedName": "(any BoxoSDK.MiniappWebViewDelegate)?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "MiniappWebViewDelegate",
+                    "printedName": "any BoxoSDK.MiniappWebViewDelegate",
+                    "usr": "c:@M@BoxoSDK@objc(pl)MiniappWebviewDelegate"
+                  }
+                ],
+                "usr": "s:Sq"
               }
             ],
             "declKind": "Var",
@@ -4417,11 +4433,9 @@
             "declAttributes": [
               "HasInitialValue",
               "HasStorage",
-              "ReferenceOwnership",
               "AccessControl",
               "ObjC"
             ],
-            "ownership": 1,
             "hasStorage": true,
             "accessors": [
               {
@@ -4508,35 +4522,6 @@
                 "accessorKind": "_modify"
               }
             ]
-          },
-          {
-            "kind": "Function",
-            "name": "getCurrentVC",
-            "printedName": "getCurrentVC()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "UIKit.UIViewController?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "UIViewController",
-                    "printedName": "UIKit.UIViewController",
-                    "usr": "c:objc(cs)UIViewController"
-                  }
-                ],
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:7BoxoSDK7MiniappC12getCurrentVCSo16UIViewControllerCSgyF",
-            "mangledName": "$s7BoxoSDK7MiniappC12getCurrentVCSo16UIViewControllerCSgyF",
-            "moduleName": "BoxoSDK",
-            "declAttributes": [
-              "AccessControl"
-            ],
-            "funcSelfKind": "NonMutating"
           },
           {
             "kind": "Constructor",
@@ -4879,47 +4864,19 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "UIKit.UIViewController?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "UIViewController",
-                    "printedName": "UIKit.UIViewController",
-                    "usr": "c:objc(cs)UIViewController"
-                  }
-                ],
-                "usr": "s:Sq"
+                "name": "UIViewController",
+                "printedName": "UIKit.UIViewController",
+                "usr": "c:objc(cs)UIViewController"
               }
             ],
             "declKind": "Func",
             "usr": "c:@M@BoxoSDK@objc(cs)Miniapp(im)createUIViewController",
-            "mangledName": "$s7BoxoSDK7MiniappC22createUIViewControllerSo0eF0CSgyF",
+            "mangledName": "$s7BoxoSDK7MiniappC22createUIViewControllerSo0eF0CyF",
             "moduleName": "BoxoSDK",
             "objc_name": "createUIViewController",
             "declAttributes": [
               "AccessControl",
               "ObjC"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "removeCache",
-            "printedName": "removeCache()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:7BoxoSDK7MiniappC11removeCacheyyF",
-            "mangledName": "$s7BoxoSDK7MiniappC11removeCacheyyF",
-            "moduleName": "BoxoSDK",
-            "declAttributes": [
-              "AccessControl"
             ],
             "funcSelfKind": "NonMutating"
           },
@@ -11317,21 +11274,21 @@
     {
       "filePath": "\/Users\/runner\/work\/ios-sdk\/ios-sdk\/BoxoSDK\/BoxoSDK\/source\/viewcontrollers\/MiniAppVC.swift",
       "kind": "StringLiteral",
-      "offset": 33748,
+      "offset": 33758,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-sdk\/ios-sdk\/BoxoSDK\/BoxoSDK\/source\/viewcontrollers\/MiniAppVC.swift",
       "kind": "StringLiteral",
-      "offset": 33774,
+      "offset": 33784,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-sdk\/ios-sdk\/BoxoSDK\/BoxoSDK\/source\/viewcontrollers\/MiniAppVC.swift",
       "kind": "BooleanLiteral",
-      "offset": 36099,
+      "offset": 36109,
       "length": 4,
       "value": "true"
     },

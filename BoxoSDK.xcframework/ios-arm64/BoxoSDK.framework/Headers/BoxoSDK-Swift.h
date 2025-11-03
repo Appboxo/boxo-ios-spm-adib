@@ -363,8 +363,8 @@ SWIFT_CLASS_NAMED("CustomEvent")
 SWIFT_CLASS_NAMED("Miniapp")
 @interface Miniapp : NSObject
 @property (nonatomic, copy) NSString * _Nonnull appId;
-@property (nonatomic, weak) id <MiniappDelegate> _Nullable delegate;
-@property (nonatomic, weak) id <MiniappWebviewDelegate> _Nullable webViewDelegate;
+@property (nonatomic, strong) id <MiniappDelegate> _Nullable delegate;
+@property (nonatomic, strong) id <MiniappWebviewDelegate> _Nullable webViewDelegate;
 - (nonnull instancetype)initWithAppId:(NSString * _Nonnull)appId OBJC_DESIGNATED_INITIALIZER;
 - (void)openWithViewController:(UIViewController * _Nonnull)viewController;
 - (void)sendCustomEvent:(CustomEvent * _Nonnull)customEvent;
@@ -376,7 +376,7 @@ SWIFT_CLASS_NAMED("Miniapp")
 - (void)hideCustomActionMenuItem;
 - (void)setAuthCode:(NSString * _Nonnull)authCode;
 - (void)setAuthTokens:(NSDictionary<NSString *, id> * _Nonnull)tokens;
-- (UIViewController * _Nullable)createUIViewController SWIFT_WARN_UNUSED_RESULT;
+- (UIViewController * _Nonnull)createUIViewController SWIFT_WARN_UNUSED_RESULT;
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
