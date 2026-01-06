@@ -326,6 +326,7 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) Boxo * _Nonn
 @end
 
 @class ProgressBarColors;
+@class LocationRequestConfig;
 enum Theme : NSInteger;
 SWIFT_CLASS_NAMED("Config")
 @interface Config : NSObject
@@ -335,6 +336,7 @@ SWIFT_CLASS_NAMED("Config")
 @property (nonatomic) BOOL showClearCache;
 @property (nonatomic) BOOL showAboutPage;
 @property (nonatomic, strong) ProgressBarColors * _Nullable progressBarColors;
+@property (nonatomic, strong) LocationRequestConfig * _Nonnull locationRequestConfig;
 @property (nonatomic, copy) NSString * _Nonnull language;
 @property (nonatomic) NSInteger miniappSettingsExpirationTime;
 @property (nonatomic, copy) NSString * _Nonnull clientId;
@@ -352,6 +354,15 @@ SWIFT_CLASS_NAMED("CustomEvent")
 @property (nonatomic, copy) NSString * _Nonnull type;
 @property (nonatomic, copy) NSString * _Nonnull errorType;
 @property (nonatomic, copy) NSDictionary<NSString *, id> * _Nullable payload;
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+@end
+
+SWIFT_CLASS_NAMED("LocationRequestConfig")
+@interface LocationRequestConfig : NSObject
+@property (nonatomic, copy) NSString * _Nonnull titleText;
+@property (nonatomic, copy) NSString * _Nonnull descriptionText;
+@property (nonatomic, copy) NSString * _Nonnull allowButtonTitle;
+@property (nonatomic, copy) NSString * _Nonnull skipButtonTitle;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 

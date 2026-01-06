@@ -19,6 +19,14 @@ import WebKit
 import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
+@_inheritsConvenienceInitializers @objc(LocationRequestConfig) public class LocationRequestConfig : ObjectiveC.NSObject {
+  @objc public var titleText: Swift.String
+  @objc public var descriptionText: Swift.String
+  @objc public var allowButtonTitle: Swift.String
+  @objc public var skipButtonTitle: Swift.String
+  @objc override dynamic public init()
+  @objc deinit
+}
 public let BoxoMiniappViewTag: Swift.Int
 @objc(Boxo) open class Boxo : ObjectiveC.NSObject {
   @objc public static let shared: BoxoSDK.Boxo
@@ -61,6 +69,7 @@ public let BoxoMiniappViewTag: Swift.Int
   @objc public var showClearCache: Swift.Bool
   @objc public var showAboutPage: Swift.Bool
   @objc public var progressBarColors: BoxoSDK.ProgressBarColors?
+  @objc public var locationRequestConfig: BoxoSDK.LocationRequestConfig
   @objc public var language: Swift.String {
     @objc get
     @objc set
