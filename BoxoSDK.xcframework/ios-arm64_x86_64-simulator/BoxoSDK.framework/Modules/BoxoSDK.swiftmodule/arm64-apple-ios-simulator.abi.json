@@ -10482,7 +10482,7 @@
       "kind": "StringLiteral",
       "offset": 274,
       "length": 13,
-      "value": "\"adib_0.0.20\""
+      "value": "\"adib_0.0.21\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-sdk\/ios-sdk\/BoxoSDK\/BoxoSDK\/source\/sdk\/CustomEvent.swift",
