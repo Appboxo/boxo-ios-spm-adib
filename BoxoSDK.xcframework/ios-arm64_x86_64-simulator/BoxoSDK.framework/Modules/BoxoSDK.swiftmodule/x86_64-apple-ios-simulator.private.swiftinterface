@@ -20,6 +20,7 @@ import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
 @_inheritsConvenienceInitializers @objc(LocationRequestConfig) public class LocationRequestConfig : ObjectiveC.NSObject {
+  @objc public var logo: Swift.String
   @objc public var titleText: Swift.String
   @objc public var descriptionText: Swift.String
   @objc public var allowButtonTitle: Swift.String

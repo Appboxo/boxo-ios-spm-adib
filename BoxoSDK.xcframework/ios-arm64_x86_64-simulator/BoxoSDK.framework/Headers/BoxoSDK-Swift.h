@@ -359,6 +359,7 @@ SWIFT_CLASS_NAMED("CustomEvent")
 
 SWIFT_CLASS_NAMED("LocationRequestConfig")
 @interface LocationRequestConfig : NSObject
+@property (nonatomic, copy) NSString * _Nonnull logo;
 @property (nonatomic, copy) NSString * _Nonnull titleText;
 @property (nonatomic, copy) NSString * _Nonnull descriptionText;
 @property (nonatomic, copy) NSString * _Nonnull allowButtonTitle;
@@ -861,6 +862,7 @@ SWIFT_CLASS_NAMED("CustomEvent")
 
 SWIFT_CLASS_NAMED("LocationRequestConfig")
 @interface LocationRequestConfig : NSObject
+@property (nonatomic, copy) NSString * _Nonnull logo;
 @property (nonatomic, copy) NSString * _Nonnull titleText;
 @property (nonatomic, copy) NSString * _Nonnull descriptionText;
 @property (nonatomic, copy) NSString * _Nonnull allowButtonTitle;
